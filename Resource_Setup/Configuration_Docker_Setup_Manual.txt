@@ -1,0 +1,30 @@
+ sudo vi /etc/apt/apt.conf
+Acquire::http::Proxy "http://praparn:eva10409@10.101.14.15:80/";
+Acquire::https::Proxy "http://praparn:eva10409@10.101.14.15:80/";
+*Need to insert setup CD1*
+Acquire::http::proxy "http://<username>:<password>@<proxy>:<port>/";
+Acquire::ftp::proxy "ftp://<username>:<password>@<proxy>:<port>/";
+Acquire::https::proxy "https://<username>:<password>@<proxy>:<port>/";
+
+apt-get update
+apt-get purge "lxc-docker*"
+apt-get purge "docker.io*"
+apt-get update
+apt-get install apt-transport-https ca-certificates
+apt-key adv --keyserver-options http-proxy=http://user:password@proxy.test.com:80/ --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+
+---Debian Wheezy
+vi /etc/apt/sources.list.d/docker.list ==> Add ==> "deb https://apt.dockerproject.org/repo debian-wheezy main"
+---Debian Wheezy
+---Debian Jessie
+vi /etc/apt/sources.list.d/docker.list ==> Add ==> "deb https://apt.dockerproject.org/repo debian-jessie main"
+---Debian Jessie
+apt-get update
+apt-cache policy docker-engine
+apt-get update
+apt-get install docker-engine
+service docker start
+
+groupadd docker
+gpasswd -a <user> docker
+service docker restart

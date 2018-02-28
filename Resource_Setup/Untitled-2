@@ -1,0 +1,12 @@
+
+
+docker container run -dt --name php_mantiswf \
+    --mount type=bind,source=/home/docker/source/web_mantiswf/config,target=/app/config \
+	--net dev_general_network --net-alias php_mantiswf  \
+	labdocker/mantisbt_hengleasing_php_20180221002900
+
+docker container run -dt --name web_mantiswf -p 8010:8080 \
+    --mount type=bind,source=/home/docker/source/web_mantiswf/config,target=/app/config \
+    --mount type=bind,source=/home/docker/dockers/web_mantiswf/logs,target=/opt/bitnami/nginx/logs \
+	--net dev_general_network --net-alias php_mantiswf \
+    labdocker/mantisbt_hengleasing_web_20180221002900

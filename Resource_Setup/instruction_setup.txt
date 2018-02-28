@@ -1,0 +1,278 @@
+Instruction for implement production/development on heng leasing:
+====================================================
+Host Description:
+dockerserve_dev_001	X.X.X.X		Subnet Mask:			Default Gateway: 	
+dockerserve_prd_001	X.X.X.X		Subnet Mask: 			Default Gateway:
+
+
+===================================================
+Initial Machine
+
+Prerequiste:
+	Docker server need to access internet for operate
+===================================================
+1. Create Ubuntu 16.04 following document: "Manual_DockerHost_Setup.docx" and Create Template
+
+2. Push Install file to host by command:
+	scp initialsetup_docker.sh docker@x.x.x.x:/home/docker/initialsetup_docker.sh
+	scp tuningkernel_docker.sh docker@x.x.x.x:/home/docker/tuningkernel_docker.sh
+	ssh docker@x.x.x.x
+	chmod +x *.sh
+
+3. Tuning Linux Kernal and TCP by command:
+	sudo -i 
+	/home/docker/tuningkernel_docker.sh
+	exit
+
+4. Start setup docker on host by command:
+	sudo useradd -u 1001 --no-create-home 1001
+	sudo mkdir -p /var/www && sudo chown 1001:1001 /var/www
+	sudo mkdir -p /var/lib/docker && sudo chown 1001:1001 /var/lib/docker
+	./initialsetup_docker.sh
+	sudo usermod -a -G docker 1001
+	sudo shutdown -r now
+		
+5. Test Perform DockerHost by command:
+	docker container run hello-world
+	docker container run -dt --name testnginx -p 80:80 labdocker/nginx:latest
+
+6. Check browser for service and clear up:
+	http://x.x.x.x
+
+7. Create structure folder for placement source by command:
+	mkdir /home/docker/dockers
+	mkdir /home/docker/source
+	mkdir /home/docker/source/web_mantiswf
+	### mkdir /home/docker/database/mariadb ###
+
+	*Optinal*: In case we need to create new device mapper for mysql follow Instruction below:
+		1. Check new disk by command: ls /dev/sd*
+		2. Create partition by command:
+			2.1 sudo -i
+			2.2 fdisk /dev/xxx ==> Answer: "n","p","1","<enter>","<enter>"
+			2.3 prepare partition ==> Answer: "t","8e"
+			2.4 write change ==> Answer: "p","w"
+		3. Create physical volume by command: pvcreate /dev/xx1
+		4. Create volume group by command: vgcreate vgpool /dev/xx1
+		5. Create logical volume for mysql by command (Upon size) :lvcreate -L XXG -n mysqllv vgpool
+		6. Create file system ext2 by command: mkfs -t ext4 /dev/vgpool/mysqllv
+		7. Create folder and mount volume by command:
+			7.1 mkdir /mysql_data_lv
+			7.2 mount -t ext4 /dev/vgpool/mysqllv /mysql_data_lv
+			7.3 df -kh 
+			7.4 chown 1001:1001 /mysql_data_lv/
+		8. Edit file /etc/fstab for make permanent mount:
+			8.1 vi /etc/fstab
+			8.2 add line: /dev/mapper/vgpool-mysqllv                                  19G   44M   18G   1% /mysql_data_lv
+
+===================================================
+Mantis System Initial: Development Environment
+===================================================
+1. Pull image base for php-fpm and nginx
+	docker image pull bitnami/php-fpm:7.2
+	docker image pull bitnami/nginx:latest
+	docker image pull bitnami/mariadb:latest
+	docker image pull bitnami/phpmyadmin:latest
+
+2. SCP configuration to Host:
+	##From Client ##
+	scp -r ./dockers docker@x.x.x.x:/home/docker/
+	scp -r ./source/web_mantiswf docker@x.x.x.x:/home/docker/source/
+
+	##From Docker Host##
+	chmod -R 777 /home/docker/source && chmod -R 777 /home/docker/dockers
+	sudo chown -R 1001:1001 /home/docker/source && sudo chown -R 1001:1001 /home/docker/dockers
+	
+
+3. Create network for development environment by command:
+	docker network create --driver bridge \
+	--subnet=192.168.100.0/24 --ip-range=192.168.100.128/25 \
+	--gateway=192.168.100.5 dev_general_network
+
+4. Run container for mantis system and loadbalance proxy:
+
+	##Maria DB##
+	docker container run -dt --name mysql_mantiswf \
+	--mount type=bind,source=/home/docker/dockers/db_mantiswf/data/data,target=/bitnami \
+	--net dev_general_network --net-alias mysql_mantiswf  \
+	-e MARIADB_ROOT_PASSWORD=Heng_99 -e MARIADB_DATABASE=mantiswf \
+ 	bitnami/mariadb:latest
+
+
+	##PHP Myadmin##
+	docker container run -dt --name phpmyadmin_mantiswf -p 8011:80 \
+	-e PHPMYADMIN_ALLOW_ARBITRARY_SERVER=true \
+	--net dev_general_network --net-alias phpmyadmin_mantiswf  \
+  	bitnami/phpmyadmin:latest
+
+
+	##Mantis:PHP##
+	docker container run -dt --name php_mantiswf \
+	--mount type=bind,source=/home/docker/source/web_mantiswf,target=/app \
+	--mount type=bind,source=/home/docker/dockers/web_mantiswf/phpfpm,target=/bitnami/php-fpm \
+	--net dev_general_network --net-alias php_mantiswf  \
+	bitnami/php-fpm:7.2
+
+
+	##Mantis:Web##
+	docker container run -dt --name web_mantiswf -p 8010:8080 \
+	--mount type=bind,source=/home/docker/source/web_mantiswf,target=/app \
+	--mount type=bind,source=/home/docker/dockers/web_mantiswf/logs,target=/opt/bitnami/nginx/logs \
+	--mount type=bind,source=/home/docker/dockers/web_mantiswf/nginx,target=/bitnami/nginx \
+	--net dev_general_network --net-alias php_mantiswf \
+    bitnami/nginx:latest
+
+
+	##Load Balance##
+	docker container run -dt --name lb -p 80:8080 -p 443:8443 \
+	--mount type=bind,source=/home/docker/dockers/lb/logs,target=/opt/bitnami/nginx/logs \
+	--mount type=bind,source=/home/docker/dockers/lb/nginx,target=/bitnami/nginx \
+	--net dev_general_network --net-alias lb \
+    bitnami/nginx:latest
+
+5. Test by add dns for "http://phpmyadmin.com","http://mantiswf.com"
+
+6. Mantis configuration by command:
+
+##################SKIP ######################
+Download and Extract Source: 
+
+cd /home/docker/source/
+curl https://jaist.dl.sourceforge.net/project/mantisbt/mantis-stable/2.11.1/mantisbt-2.11.1.tar.gz > mantisbt-2.11.1.tar.gz
+tar -xzvf mantisbt-2.11.1.tar.gz 
+curl http://hengleasing.co.th/jobheng/src/bootstrap/img/icon-heng.png > mantisbt-2.11.1/images/logo.png
+sudo rsync -a mantisbt-2.11.1/ web_mantiswf/
+rm -rf mantisbt-2.11.1 mantisbt-2.11.1.tar.gz
+sudo chown -R 1001:1001 /home/docker/source/web_mantiswf
+sudo chmod -R 777 /home/docker/source/web_mantiswf/config && sudo chmod -R 777 /home/docker/source/web_mantiswf/images
+
+##################SKIP ######################
+
+6.1. Start installation step:
+
+http://x.x.x.x:8010/admin/install.php
+Type of Database: MySQL Improved
+Hostname: mysql_mantiswf
+Username: root
+Password: Heng_99
+Database name: mantiswf
+Admin Username: root
+Admin Password: Heng_99
+
+<Submit>
+
+6.2. Test Login Page/LogOff:
+	Default: Administrator
+	Password: root
+
+	sudo chmod 400 /home/docker/source/web_mantiswf/admin		==> Restrict Admin Folder
+
+6.3 Configure Mantis System on path /home/docker/source/web_mantiswf/config/config_inc.conf like below:
+
+# --- Anonymous Access / Signup ---
+$g_allow_signup                 = OFF;
+$g_allow_anonymous_login        = OFF;
+$g_anonymous_account            = '';
+
+# --- Email Configuration ---
+$g_phpMailer_method     = PHPMAILER_METHOD_SMTP;  # or PHPMAILER_METHOD_SMTP, PHPMAILER_METHOD_SENDMA
+IL
+$g_smtp_host            = 'x.x.x.x';   # used with PHPMAILER_METHOD_SMTP
+#$g_smtp_username                = '';            # used with PHPMAILER_METHOD_SMTP
+#$g_smtp_password                = '';            # used with PHPMAILER_METHOD_SMTP
+$g_smtp_port            = 25;
+$g_smtp_connection_mode = '';
+$g_administrator_email  = 'xxxx@xxxx.xxxx.x.x';
+$g_webmaster_email      = 'xxxx@xxxx.xxxx.x.x';
+$g_from_email           = 'no-reply@cr.scblife.co.th';
+$g_from_name            = 'WorkFlow Notification';
+$g_email_ensure_unique = OFF;
+$g_enable_email_notification = ON;
+
+# --- Anti Spam Configuration ---
+$g_antispam_max_event_count     = 0;
+
+# --- Attachments / File Uploads ---
+$g_allow_file_upload    = ON;
+$g_file_upload_method = DATABASE; # or DISK
+$g_max_file_size        = 3072000;
+$g_preview_attachments_inline_max_size = 256 * 1024;
+$g_disallowed_files    = 'php,html,exe,php3';
+#$g_allowed_files        = 'doc,docx,xls,xlsx,ppt,pptx,pdf,jpg,png,zip';
+
+#----- title on main page
+$g_window_title = 'WorkFlow';
+$g_logo_image = 'images/logo.png';
+
+#----- severity -----#
+$g_severity_enum_string = '20:trivial,50:minor,60:major,70:critical';
+$g_severity_multipliers = array(TRIVIAL  => 1,
+                                MINOR    => 2,
+                                MAJOR    => 3,
+                                CRITICAL => 4);
+
+$g_status_enum_string = '10:new,20:feedback,30:acknowledged,40:confirmed,50:assigned,55:testing,80:re
+solved,90:closed';                                
+#----- color -----#
+$g_status_colors = array(
+         'new'            => '#ef2929', # red
+         'feedback'       => '#e3b7eb', # purple
+         'acknowledged'   => '#ffcd85', # orange
+         'confirmed'      => '#fff494', # yellow
+         'assigned'       => '#8fbbc9', # blue 
+         'testing'        => '#fcbdbd', # light pink
+         'resolved'       => '#8ae234', # green
+         'closed'         => '#c9ccc4'  # grey
+);
+
+#----- save filter -----#
+$g_stored_query_create_threshold = VIEWER;
+$g_stored_query_use_threshold = VIEWER;
+
+#----- add monitor -----#
+$g_monitor_add_others_bug_threshold = VIEWER;
+$g_monitor_delete_others_bug_threshold = VIEWER;
+
+#----- Use real name for assign to -----#
+$g_show_realname = ON;
+
+#----- Menu Configuration -----#
+$g_roadmap_view_threshold   = ADMINISTRATOR;
+$g_view_changelog_threshold = ADMINISTRATOR;
+$g_timeline_view_threshold = ADMINISTRATOR;
+
+
+############################################################################################
+********* Case Gmail ***********
+# --- Email Configuration ---
+$g_phpMailer_method     = PHPMAILER_METHOD_SMTP;  # or PHPMAILER_METHOD_SMTP, PHPMAILER_METHOD_SENDMAIL
+$g_smtp_host            = 'smtp.gmail.com';   # used with PHPMAILER_METHOD_SMTP
+$g_smtp_username                = 'labdockerthailand@gmail.com';            # used with PHPMAILER_METHOD_SMTP
+$g_smtp_password                = 'P@ssw0rd$#@!';            # used with PHPMAILER_METHOD_SMTP
+$g_smtp_port            = 587;
+$g_smtp_connection_mode = 'tls';
+$g_administrator_email  = 'labdockerthailand@gmail.com';
+$g_webmaster_email      = 'labdockerthailand@gmail.com';
+$g_from_email           = 'no-reply@workflow.hengleasing.com';
+$g_from_name            = 'HENG Leasing Notification';
+$g_email_ensure_unique = OFF;
+$g_enable_email_notification = ON;
+
+********************************
+
+6.4 Restart contianer for apply new configuration by command:
+
+docker container restart web_mantiswf php_mantiswf
+
+
+
+Stop:
+	docker container stop lb web_mantiswf php_mantiswf phpmyadmin_mantiswf mysql_mantiswf
+	docker container start web_mantiswf php_mantiswf phpmyadmin_mantiswf mysql_mantiswf lb 
+
+Clean Up:
+	docker container rm lb web_mantiswf php_mantiswf phpmyadmin_mantiswf mysql_mantiswf
+	sudo rm -rf /home/docker/dockers
+	sudo rm -rf /home/docker/source
+	sudo rm -rf /mysql_data_lv/mysql_mantiswf
+	sudo rm -rf /mysql_data_lv/phpmyadmin_mantiswf

@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="135cm" height="88cm" viewBox="124 97 2696 1759" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="179.462" y="854.296" width="257" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="179.462" y="854.296" width="257" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="307.962" y="868.296">mantis_bug_text_table</text>
+    <rect style="fill: #ffffff" x="179.462" y="872.296" width="257" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="179.462" y="872.296" width="257" height="68"/>
+    <polygon style="fill: #000000" points="182.462,882.296 184.462,885.296 186.462,882.296 184.462,879.296 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="188.462" y="888.296">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="367.862" y="888.296">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="188.462" y1="889.896" x2="421.762" y2="889.896"/>
+    <ellipse style="fill: #000000" cx="184.462" cy="898.296" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="188.462" y="904.296">description</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="367.862" y="904.296">longtext</text>
+    <ellipse style="fill: #000000" cx="184.462" cy="914.296" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="188.462" y="920.296">steps_to_reproduce</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="367.862" y="920.296">longtext</text>
+    <ellipse style="fill: #000000" cx="184.462" cy="930.296" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="188.462" y="936.296">additional_information</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="367.862" y="936.296">longtext</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="275.428" y="1220.57" width="233.9" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="275.428" y="1220.57" width="233.9" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="392.378" y="1234.57">mantis_bugnote_table</text>
+    <rect style="fill: #ffffff" x="275.428" y="1238.57" width="233.9" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="275.428" y="1238.57" width="233.9" height="164"/>
+    <polygon style="fill: #000000" points="278.428,1248.57 280.428,1251.57 282.428,1248.57 280.428,1245.57 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1254.57">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1254.57">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="284.428" y1="1256.17" x2="463.828" y2="1256.17"/>
+    <ellipse style="fill: #000000" cx="280.428" cy="1264.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1270.57">bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1270.57">int(10)</text>
+    <ellipse style="fill: #000000" cx="280.428" cy="1280.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1286.57">reporter_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1286.57">int(10)</text>
+    <ellipse style="fill: #000000" cx="280.428" cy="1296.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1302.57">bugnote_text_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1302.57">int(10)</text>
+    <ellipse style="fill: #000000" cx="280.428" cy="1312.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1318.57">view_state</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1318.57">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="280.428" cy="1328.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1334.57">note_type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1334.57">int(11)</text>
+    <ellipse style="fill: #000000" cx="280.428" cy="1344.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1350.57">note_attr</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1350.57">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="280.428" cy="1360.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1366.57">time_tracking</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1366.57">int(10)</text>
+    <ellipse style="fill: #000000" cx="280.428" cy="1376.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1382.57">last_modified</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1382.57">int(10)</text>
+    <ellipse style="fill: #000000" cx="280.428" cy="1392.57" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="284.428" y="1398.57">date_submitted</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="409.928" y="1398.57">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="301.884" y="1510.51" width="180.2" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="301.884" y="1510.51" width="180.2" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="391.984" y="1524.51">mantis_bugnote_text_table</text>
+    <rect style="fill: #ffffff" x="301.884" y="1528.51" width="180.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="301.884" y="1528.51" width="180.2" height="36"/>
+    <polygon style="fill: #000000" points="304.884,1538.51 306.884,1541.51 308.884,1538.51 306.884,1535.51 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="310.884" y="1544.51">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="351.684" y="1544.51">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="310.884" y1="1546.11" x2="405.584" y2="1546.11"/>
+    <ellipse style="fill: #000000" cx="306.884" cy="1554.51" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="310.884" y="1560.51">note</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="351.684" y="1560.51">longtext</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="514.214" y="1645.42" width="219.15" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="514.214" y="1645.42" width="219.15" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="623.789" y="1659.42">mantis_custom_field_string_table</text>
+    <rect style="fill: #ffffff" x="514.214" y="1663.42" width="219.15" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="514.214" y="1663.42" width="219.15" height="52"/>
+    <polygon style="fill: #000000" points="517.214,1673.42 519.214,1676.42 521.214,1673.42 519.214,1670.42 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="523.214" y="1679.42">field_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.814" y="1679.42">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="523.214" y1="1681.02" x2="648.714" y2="1681.02"/>
+    <polygon style="fill: #000000" points="517.214,1689.42 519.214,1692.42 521.214,1689.42 519.214,1686.42 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="523.214" y="1695.42">bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.814" y="1695.42">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="523.214" y1="1697.02" x2="648.714" y2="1697.02"/>
+    <ellipse style="fill: #000000" cx="519.214" cy="1705.42" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="523.214" y="1711.42">value</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.814" y="1711.42">varchar(255)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1327.77" y="637.912" width="318.6" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1327.77" y="637.912" width="318.6" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1487.07" y="651.912">mantis_user_table</text>
+    <rect style="fill: #ffffff" x="1327.77" y="655.912" width="318.6" height="228"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1327.77" y="655.912" width="318.6" height="228"/>
+    <polygon style="fill: #000000" points="1330.77,665.912 1332.77,668.912 1334.77,665.912 1332.77,662.912 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="671.912">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="671.912">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1336.77" y1="673.512" x2="1608.57" y2="673.512"/>
+    <ellipse style="fill: #000000" cx="1332.77" cy="681.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="687.912">username</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="687.912">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="697.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="703.912">realname</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="703.912">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="713.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="719.912">email</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="719.912">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="729.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="735.912">password</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="735.912">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="745.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="751.912">enabled</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="751.912">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="761.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="767.912">protected</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="767.912">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="777.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="783.912">access_level</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="783.912">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="793.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="799.912">login_count</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="799.912">int(11)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1332.77" cy="809.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="815.912">lost_password_request_count</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="815.912">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="825.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="831.912">failed_login_count</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="831.912">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="841.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="847.912">cookie_setting</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="847.912">int(10)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1332.77" cy="857.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="863.912">last_visit</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="863.912">int(100</text>
+    <ellipse style="fill: #000000" cx="1332.77" cy="873.912" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1336.77" y="879.912">date_created</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1554.67" y="879.912">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="943.04" y="732.774" width="180" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="943.04" y="732.774" width="180" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1033.04" y="746.774">mantis_bug_tag_table</text>
+    <rect style="fill: #ffffff" x="943.04" y="750.774" width="180" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="943.04" y="750.774" width="180" height="68"/>
+    <polygon style="fill: #000000" points="946.04,760.774 948.04,763.774 950.04,760.774 948.04,757.774 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="952.04" y="766.774">bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1062.14" y="766.774">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="952.04" y1="768.374" x2="1116.04" y2="768.374"/>
+    <polygon style="fill: #000000" points="946.04,776.774 948.04,779.774 950.04,776.774 948.04,773.774 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="952.04" y="782.774">tag_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1062.14" y="782.774">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="952.04" y1="784.374" x2="1116.04" y2="784.374"/>
+    <ellipse style="fill: #000000" cx="948.04" cy="792.774" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="952.04" y="798.774">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1062.14" y="798.774">int(10)</text>
+    <ellipse style="fill: #000000" cx="948.04" cy="808.774" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="952.04" y="814.774">date_attached</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1062.14" y="814.774">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="927.124" y="899.252" width="210.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="927.124" y="899.252" width="210.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1032.52" y="913.252">mantis_tag_table</text>
+    <rect style="fill: #ffffff" x="927.124" y="917.252" width="210.8" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="927.124" y="917.252" width="210.8" height="100"/>
+    <polygon style="fill: #000000" points="930.124,927.252 932.124,930.252 934.124,927.252 932.124,924.252 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="936.124" y="933.252">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1038.52" y="933.252">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="936.124" y1="934.852" x2="1092.42" y2="934.852"/>
+    <ellipse style="fill: #000000" cx="932.124" cy="943.252" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="936.124" y="949.252">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1038.52" y="949.252">int(10)</text>
+    <ellipse style="fill: #000000" cx="932.124" cy="959.252" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="936.124" y="965.252">name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1038.52" y="965.252">varchar(100)</text>
+    <ellipse style="fill: #000000" cx="932.124" cy="975.252" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="936.124" y="981.252">description</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1038.52" y="981.252">longtext</text>
+    <ellipse style="fill: #000000" cx="932.124" cy="991.252" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="936.124" y="997.252">date_created</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1038.52" y="997.252">int(10)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="932.124" cy="1007.25" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="936.124" y="1013.25">date_updated</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1038.52" y="1013.25">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1754.88" y="532.564" width="210.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1754.88" y="532.564" width="210.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1860.28" y="546.564">mantis_filters_table</text>
+    <rect style="fill: #ffffff" x="1754.88" y="550.564" width="210.8" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1754.88" y="550.564" width="210.8" height="100"/>
+    <polygon style="fill: #000000" points="1757.88,560.564 1759.88,563.564 1761.88,560.564 1759.88,557.564 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763.88" y="566.564">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1873.98" y="566.564">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1763.88" y1="568.164" x2="1927.88" y2="568.164"/>
+    <ellipse style="fill: #000000" cx="1759.88" cy="576.564" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763.88" y="582.564">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1873.98" y="582.564">int(11)</text>
+    <ellipse style="fill: #000000" cx="1759.88" cy="592.564" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763.88" y="598.564">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1873.98" y="598.564">int(11)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1759.88" cy="608.564" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763.88" y="614.564">is_public</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1873.98" y="614.564">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1759.88" cy="624.564" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763.88" y="630.564">name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1873.98" y="630.564">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="1759.88" cy="640.564" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763.88" y="646.564">filter_string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1873.98" y="646.564">longtext</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1772.44" y="781.95" width="203.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1772.44" y="781.95" width="203.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1873.99" y="795.95">mantis_project_user_list_table</text>
+    <rect style="fill: #ffffff" x="1772.44" y="799.95" width="203.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1772.44" y="799.95" width="203.1" height="52"/>
+    <polygon style="fill: #000000" points="1775.44,809.95 1777.44,812.95 1779.44,809.95 1777.44,806.95 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1781.44" y="815.95">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1883.84" y="815.95">int(100</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1781.44" y1="817.55" x2="1937.74" y2="817.55"/>
+    <polygon style="fill: #000000" points="1775.44,825.95 1777.44,828.95 1779.44,825.95 1777.44,822.95 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1781.44" y="831.95">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1883.84" y="831.95">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1781.44" y1="833.55" x2="1937.74" y2="833.55"/>
+    <ellipse style="fill: #000000" cx="1777.44" cy="841.95" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1781.44" y="847.95">access_level</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1883.84" y="847.95">smallint(6)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1331.38" y="1485.74" width="226.5" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1331.38" y="1485.74" width="226.5" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1444.63" y="1499.74">mantis_custom_field_project_table</text>
+    <rect style="fill: #ffffff" x="1331.38" y="1503.74" width="226.5" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1331.38" y="1503.74" width="226.5" height="52"/>
+    <polygon style="fill: #000000" points="1334.38,1513.74 1336.38,1516.74 1338.38,1513.74 1336.38,1510.74 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1340.38" y="1519.74">field_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1427.38" y="1519.74">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1340.38" y1="1521.34" x2="1481.28" y2="1521.34"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="1336.38" cy="1529.74" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1340.38" y="1535.74">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1427.38" y="1535.74">int(10)</text>
+    <ellipse style="fill: #000000" cx="1336.38" cy="1545.74" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1340.38" y="1551.74">sequence</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1427.38" y="1551.74">smallint(6)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1391.35" y="97.0674" width="195.4" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1391.35" y="97.0674" width="195.4" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1489.05" y="111.067">mantis_category_table</text>
+    <rect style="fill: #ffffff" x="1391.35" y="115.067" width="195.4" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1391.35" y="115.067" width="195.4" height="68"/>
+    <polygon style="fill: #000000" points="1394.35,125.067 1396.35,128.067 1398.35,125.067 1396.35,122.067 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1400.35" y="131.067">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1487.35" y="131.067">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1400.35" y1="132.667" x2="1541.25" y2="132.667"/>
+    <ellipse style="fill: #000000" cx="1396.35" cy="141.067" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1400.35" y="147.067">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1487.35" y="147.067">int(10)</text>
+    <ellipse style="fill: #000000" cx="1396.35" cy="157.067" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1400.35" y="163.067">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1487.35" y="163.067">int(10)</text>
+    <ellipse style="fill: #000000" cx="1396.35" cy="173.067" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1400.35" y="179.067">name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1487.35" y="179.067">varchar(128)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="970.09" y="638.018" width="175.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="970.09" y="638.018" width="175.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1057.99" y="652.018">mantis_bug_monitor_table</text>
+    <rect style="fill: #ffffff" x="970.09" y="656.018" width="175.8" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="970.09" y="656.018" width="175.8" height="36"/>
+    <polygon style="fill: #000000" points="973.09,666.018 975.09,669.018 977.09,666.018 975.09,663.018 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="979.09" y="672.018">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1042.99" y="672.018">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="979.09" y1="673.618" x2="1096.89" y2="673.618"/>
+    <polygon style="fill: #000000" points="973.09,682.018 975.09,685.018 977.09,682.018 975.09,679.018 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="979.09" y="688.018">bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1042.99" y="688.018">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="979.09" y1="689.618" x2="1096.89" y2="689.618"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="549.238,1090.47 392.378,1090.47 392.378,1220.57 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="544.238" y1="1085.47" x2="544.238" y2="1095.47"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="539.238" y1="1085.47" x2="539.238" y2="1095.47"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="392.378" y1="1210.57" x2="387.378" y2="1220.57"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="392.378" y1="1210.57" x2="397.378" y2="1220.57"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 392.378 1208.07 C 389.878,1208.07 387.378,1206.82 387.378,1205.57 C 387.378,1204.32 389.878,1203.07 392.378,1203.07 C 394.878,1203.07 397.378,1204.32 397.378,1205.57 C 397.378,1206.82 394.878,1208.07 392.378,1208.07"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="401.21" y="311.216" width="203.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="401.21" y="311.216" width="203.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="502.76" y="325.216">mantis_bug_file_table</text>
+    <rect style="fill: #ffffff" x="401.21" y="329.216" width="203.1" height="196"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="401.21" y="329.216" width="203.1" height="196"/>
+    <polygon style="fill: #000000" points="404.21,339.216 406.21,342.216 408.21,339.216 406.21,336.216 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="345.216">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="345.216">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="410.21" y1="346.816" x2="558.81" y2="346.816"/>
+    <ellipse style="fill: #000000" cx="406.21" cy="355.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="361.216">bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="361.216">int(10)</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="371.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="377.216">title</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="377.216">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="387.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="393.216">description</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="393.216">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="403.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="409.216">diskfile</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="409.216">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="419.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="425.216">filename</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="425.216">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="435.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="441.216">folder</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="441.216">varchar(25)</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="451.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="457.216">filesize</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="457.216">int(11)</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="467.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="473.216">file_type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="473.216">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="483.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="489.216">date_added</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="489.216">datetime</text>
+    <ellipse style="fill: #000000" cx="406.21" cy="499.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="505.216">content</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="505.216">longblob</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="406.21" cy="515.216" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="410.21" y="521.216">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.91" y="521.216">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="932.886" y="384.134" width="218.5" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="932.886" y="384.134" width="218.5" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1042.14" y="398.134">mantis_bug_history_table</text>
+    <rect style="fill: #ffffff" x="932.886" y="402.134" width="218.5" height="132"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="932.886" y="402.134" width="218.5" height="132"/>
+    <polygon style="fill: #000000" points="935.886,412.134 937.886,415.134 939.886,412.134 937.886,409.134 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="941.886" y="418.134">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1051.99" y="418.134">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="941.886" y1="419.734" x2="1105.89" y2="419.734"/>
+    <ellipse style="fill: #000000" cx="937.886" cy="428.134" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="941.886" y="434.134">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1051.99" y="434.134">int(10)</text>
+    <ellipse style="fill: #000000" cx="937.886" cy="444.134" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="941.886" y="450.134">bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1051.99" y="450.134">int(10)</text>
+    <ellipse style="fill: #000000" cx="937.886" cy="460.134" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="941.886" y="466.134">field_name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1051.99" y="466.134">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="937.886" cy="476.134" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="941.886" y="482.134">old_value</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1051.99" y="482.134">varchar(255)</text>
+    <ellipse style="fill: #000000" cx="937.886" cy="492.134" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="941.886" y="498.134">new_value</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1051.99" y="498.134">varchar(255)</text>
+    <ellipse style="fill: #000000" cx="937.886" cy="508.134" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="941.886" y="514.134">type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1051.99" y="514.134">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="937.886" cy="524.134" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="941.886" y="530.134">date_modified</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1051.99" y="530.134">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="124.37" y="679.776" width="249.3" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="124.37" y="679.776" width="249.3" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="249.02" y="693.776">mantis_bug_relationship_table</text>
+    <rect style="fill: #ffffff" x="124.37" y="697.776" width="249.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="124.37" y="697.776" width="249.3" height="68"/>
+    <polygon style="fill: #000000" points="127.37,707.776 129.37,710.776 131.37,707.776 129.37,704.776 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="133.37" y="713.776">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="281.97" y="713.776">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="133.37" y1="715.376" x2="335.87" y2="715.376"/>
+    <ellipse style="fill: #000000" cx="129.37" cy="723.776" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="133.37" y="729.776">source_bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="281.97" y="729.776">int(10)</text>
+    <ellipse style="fill: #000000" cx="129.37" cy="739.776" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="133.37" y="745.776">destination_bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="281.97" y="745.776">int(10)</text>
+    <ellipse style="fill: #000000" cx="129.37" cy="755.776" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="133.37" y="761.776">relationship_type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="281.97" y="761.776">smallint(6)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="647.848" y="1236.61" width="176.5" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="647.848" y="1236.61" width="176.5" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="736.098" y="1250.61">mantis_bug_revision_table</text>
+    <rect style="fill: #ffffff" x="647.848" y="1254.61" width="176.5" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="647.848" y="1254.61" width="176.5" height="116"/>
+    <polygon style="fill: #000000" points="650.848,1264.61 652.848,1267.61 654.848,1264.61 652.848,1261.61 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="656.848" y="1270.61">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="743.848" y="1270.61">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="656.848" y1="1272.21" x2="797.748" y2="1272.21"/>
+    <ellipse style="fill: #000000" cx="652.848" cy="1280.61" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="656.848" y="1286.61">bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="743.848" y="1286.61">int(10)</text>
+    <ellipse style="fill: #000000" cx="652.848" cy="1296.61" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="656.848" y="1302.61">bugnote_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="743.848" y="1302.61">int(10)</text>
+    <ellipse style="fill: #000000" cx="652.848" cy="1312.61" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="656.848" y="1318.61">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="743.848" y="1318.61">int(10)</text>
+    <ellipse style="fill: #000000" cx="652.848" cy="1328.61" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="656.848" y="1334.61">type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="743.848" y="1334.61">int(10)</text>
+    <ellipse style="fill: #000000" cx="652.848" cy="1344.61" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="656.848" y="1350.61">value</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="743.848" y="1350.61">longtext</text>
+    <ellipse style="fill: #000000" cx="652.848" cy="1360.61" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="656.848" y="1366.61">timestamp</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="743.848" y="1366.61">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="549.238" y="662.468" width="249.3" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="549.238" y="662.468" width="249.3" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="673.888" y="676.468">mantis_bug_table</text>
+    <rect style="fill: #ffffff" x="549.238" y="680.468" width="249.3" height="468"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="549.238" y="680.468" width="249.3" height="468"/>
+    <polygon style="fill: #000000" points="552.238,690.468 554.238,693.468 556.238,690.468 554.238,687.468 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="696.468">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="696.468">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="558.238" y1="698.068" x2="753.038" y2="698.068"/>
+    <ellipse style="fill: #000000" cx="554.238" cy="706.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="712.468">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="712.468">int(10)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="722.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="728.468">reporter_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="728.468">int(10)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="738.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="744.468">handler_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="744.468">int(10)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="754.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="760.468">duplicate_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="760.468">int(10)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="770.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="776.468">priority</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="776.468">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="786.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="792.468">severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="792.468">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="802.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="808.468">reproducibility</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="808.468">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="818.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="824.468">status</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="824.468">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="834.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="840.468">resolution</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="840.468">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="850.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="856.468">projection</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="856.468">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="866.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="872.468">eta</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="872.468">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="882.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="888.468">bug_text_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="888.468">int(10)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="898.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="904.468">os</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="904.468">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="914.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="920.468">os_build</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="920.468">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="930.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="936.468">platform</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="936.468">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="946.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="952.468">version</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="952.468">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="962.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="968.468">fixed_in_version</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="968.468">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="978.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="984.468">build</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="984.468">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="994.468" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1000.47">profile_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1000.47">int(10)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="1010.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1016.47">view_state</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1016.47">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="1026.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1032.47">summary</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1032.47">varchar(128)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="1042.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1048.47">sponsorship_total</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1048.47">int(11)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="1058.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1064.47">sticky</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1064.47">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="1074.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1080.47">target_version</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1080.47">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="1090.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1096.47">category_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1096.47">int(10)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="554.238" cy="1106.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1112.47">date_submitted</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1112.47">int(10)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="1122.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1128.47">due_date</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1128.47">int(10)</text>
+    <ellipse style="fill: #000000" cx="554.238" cy="1138.47" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="558.238" y="1144.47">last_updated</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="699.138" y="1144.47">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2002.04" y="861.43" width="195.4" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2002.04" y="861.43" width="195.4" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2099.74" y="875.43">mantis_config_table</text>
+    <rect style="fill: #ffffff" x="2002.04" y="879.43" width="195.4" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2002.04" y="879.43" width="195.4" height="100"/>
+    <polygon style="fill: #000000" points="2005.04,889.43 2007.04,892.43 2009.04,889.43 2007.04,886.43 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2011.04" y="895.43">config_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2105.74" y="895.43">varchar(64)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2011.04" y1="897.03" x2="2190.44" y2="897.03"/>
+    <polygon style="fill: #000000" points="2005.04,905.43 2007.04,908.43 2009.04,905.43 2007.04,902.43 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2011.04" y="911.43">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2105.74" y="911.43">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2011.04" y1="913.03" x2="2159.64" y2="913.03"/>
+    <polygon style="fill: #000000" points="2005.04,921.43 2007.04,924.43 2009.04,921.43 2007.04,918.43 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2011.04" y="927.43">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2105.74" y="927.43">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2011.04" y1="929.03" x2="2159.64" y2="929.03"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="2007.04" cy="937.43" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2011.04" y="943.43">access_reqd</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2105.74" y="943.43">int(11)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="2007.04" cy="953.43" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2011.04" y="959.43">type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2105.74" y="959.43">int(11)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="2007.04" cy="969.43" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2011.04" y="975.43">value</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2105.74" y="975.43">longtext</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="502.76,525.216 502.76,601.404 611.564,601.404 611.564,662.468 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="502.76" y1="535.216" x2="507.76" y2="525.216"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="502.76" y1="535.216" x2="497.76" y2="525.216"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 502.76 537.716 C 505.26,537.716 507.76,538.966 507.76,540.216 C 507.76,541.466 505.26,542.716 502.76,542.716 C 500.26,542.716 497.76,541.466 497.76,540.216 C 497.76,538.966 500.26,537.716 502.76,537.716"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="616.564" y1="657.468" x2="606.564" y2="657.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="616.564" y1="652.468" x2="606.564" y2="652.468"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="924.658" y="1486.37" width="241.6" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="924.658" y="1486.37" width="241.6" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1045.46" y="1500.37">mantis_custom_field_table</text>
+    <rect style="fill: #ffffff" x="924.658" y="1504.37" width="241.6" height="308"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="924.658" y="1504.37" width="241.6" height="308"/>
+    <polygon style="fill: #000000" points="927.658,1514.37 929.658,1517.37 931.658,1514.37 929.658,1511.37 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1520.37">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1520.37">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="933.658" y1="1521.97" x2="1120.76" y2="1521.97"/>
+    <ellipse style="fill: #000000" cx="929.658" cy="1530.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1536.37">name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1536.37">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1546.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1552.37">type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1552.37">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1562.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1568.37">possible_values</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1568.37">text</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1578.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1584.37">default_value</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1584.37">varchar(255)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1594.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1600.37">valid_regexp</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1600.37">varchar(255)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1610.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1616.37">access_level_r</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1616.37">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1626.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1632.37">access_level_rw</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1632.37">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1642.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1648.37">length_min</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1648.37">int(11)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1658.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1664.37">length_max</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1664.37">int(11)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1674.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1680.37">require_report</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1680.37">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1690.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1696.37">require_update</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1696.37">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1706.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1712.37">display_report</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1712.37">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1722.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1728.37">display_update</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1728.37">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1738.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1744.37">require_resolved</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1744.37">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1754.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1760.37">display_resolved</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1760.37">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1770.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1776.37">display_closed</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1776.37">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1786.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1792.37">require_closed</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1792.37">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="929.658" cy="1802.37" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="933.658" y="1808.37">filter_by</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1066.86" y="1808.37">tinyint(4)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2584.86" y="1324.39" width="187.7" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2584.86" y="1324.39" width="187.7" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2678.71" y="1338.39">mantis_email_table</text>
+    <rect style="fill: #ffffff" x="2584.86" y="1342.39" width="187.7" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2584.86" y="1342.39" width="187.7" height="100"/>
+    <polygon style="fill: #000000" points="2587.86,1352.39 2589.86,1355.39 2591.86,1352.39 2589.86,1349.39 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2593.86" y="1358.39">email_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2673.16" y="1358.39">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2593.86" y1="1359.99" x2="2727.06" y2="1359.99"/>
+    <ellipse style="fill: #000000" cx="2589.86" cy="1368.39" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2593.86" y="1374.39">email</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2673.16" y="1374.39">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="2589.86" cy="1384.39" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2593.86" y="1390.39">subject</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2673.16" y="1390.39">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="2589.86" cy="1400.39" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2593.86" y="1406.39">metadata</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2673.16" y="1406.39">longtext</text>
+    <ellipse style="fill: #000000" cx="2589.86" cy="1416.39" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2593.86" y="1422.39">body</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2673.16" y="1422.39">longtext</text>
+    <ellipse style="fill: #000000" cx="2589.86" cy="1432.39" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2593.86" y="1438.39">submitted</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2673.16" y="1438.39">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1671.06" y="236.262" width="210.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1671.06" y="236.262" width="210.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1776.46" y="250.262">mantis_news_table</text>
+    <rect style="fill: #ffffff" x="1671.06" y="254.262" width="210.8" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1671.06" y="254.262" width="210.8" height="148"/>
+    <polygon style="fill: #000000" points="1674.06,264.262 1676.06,267.262 1678.06,264.262 1676.06,261.262 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="270.262">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="270.262">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1680.06" y1="271.862" x2="1844.06" y2="271.862"/>
+    <ellipse style="fill: #000000" cx="1676.06" cy="280.262" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="286.262">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="286.262">int(10)</text>
+    <ellipse style="fill: #000000" cx="1676.06" cy="296.262" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="302.262">poster_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="302.262">int(10)</text>
+    <ellipse style="fill: #000000" cx="1676.06" cy="312.262" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="318.262">view_state</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="318.262">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1676.06" cy="328.262" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="334.262">annoucement</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="334.262">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1676.06" cy="344.262" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="350.262">headline</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="350.262">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="1676.06" cy="360.262" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="366.262">body</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="366.262">longtext</text>
+    <ellipse style="fill: #000000" cx="1676.06" cy="376.262" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="382.262">last_modified</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="382.262">int(10)</text>
+    <ellipse style="fill: #000000" cx="1676.06" cy="392.262" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1680.06" y="398.262">date_posted</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1790.16" y="398.262">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2579" y="1554.84" width="180" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2579" y="1554.84" width="180" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2669" y="1568.84">mantis_plugin_table</text>
+    <rect style="fill: #ffffff" x="2579" y="1572.84" width="180" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2579" y="1572.84" width="180" height="68"/>
+    <polygon style="fill: #000000" points="2582,1582.84 2584,1585.84 2586,1582.84 2584,1579.84 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2588" y="1588.84">basename</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2667.3" y="1588.84">varchar(40)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2588" y1="1590.44" x2="2752" y2="1590.44"/>
+    <ellipse style="fill: #000000" cx="2584" cy="1598.84" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2588" y="1604.84">enabled</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2667.3" y="1604.84">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="2584" cy="1614.84" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2588" y="1620.84">protected</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2667.3" y="1620.84">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="2584" cy="1630.84" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2588" y="1636.84">priority</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2667.3" y="1636.84">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2137.1" y="231.026" width="203.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2137.1" y="231.026" width="203.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2238.65" y="245.026">mantis_project_file_table</text>
+    <rect style="fill: #ffffff" x="2137.1" y="249.026" width="203.1" height="196"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2137.1" y="249.026" width="203.1" height="196"/>
+    <polygon style="fill: #000000" points="2140.1,259.026 2142.1,262.026 2144.1,259.026 2142.1,256.026 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="265.026">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="265.026">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2146.1" y1="266.626" x2="2294.7" y2="266.626"/>
+    <ellipse style="fill: #000000" cx="2142.1" cy="275.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="281.026">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="281.026">int(10)</text>
+    <ellipse style="fill: #000000" cx="2142.1" cy="291.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="297.026">title</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="297.026">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="2142.1" cy="307.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="313.026">description</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="313.026">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="2142.1" cy="323.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="329.026">diskfile</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="329.026">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="2142.1" cy="339.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="345.026">filename</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="345.026">varchar(250)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="2142.1" cy="355.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="361.026">folder</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="361.026">varchar(250)</text>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="2142.1" cy="371.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="377.026">filesize</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="377.026">int(11)</text>
+    <ellipse style="fill: #000000" cx="2142.1" cy="387.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="393.026">file_type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="393.026">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="2142.1" cy="403.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="409.026">content</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="409.026">longblob</text>
+    <ellipse style="fill: #000000" cx="2142.1" cy="419.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="425.026">date_added</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="425.026">int(10)</text>
+    <ellipse style="fill: #000000" cx="2142.1" cy="435.026" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2146.1" y="441.026">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2240.8" y="441.026">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2609.42" y="434.65" width="206.65" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2609.42" y="434.65" width="206.65" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2712.74" y="448.65">mantis_project_hierarchy_table</text>
+    <rect style="fill: #ffffff" x="2609.42" y="452.65" width="206.65" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2609.42" y="452.65" width="206.65" height="52"/>
+    <polygon style="fill: #000000" points="2612.42,462.65 2614.42,465.65 2616.42,462.65 2614.42,459.65 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2618.42" y="468.65">child_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2736.22" y="468.65">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2618.42" y1="470.25" x2="2790.12" y2="470.25"/>
+    <polygon style="fill: #000000" points="2612.42,478.65 2614.42,481.65 2616.42,478.65 2614.42,475.65 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2618.42" y="484.65">parent_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2736.22" y="484.65">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2618.42" y1="486.25" x2="2790.12" y2="486.25"/>
+    <ellipse style="fill: #000000" cx="2614.42" cy="494.65" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2618.42" y="500.65">inherit_parent</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2736.22" y="500.65">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2380.2" y="653.404" width="226.2" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2380.2" y="653.404" width="226.2" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2493.3" y="667.404">mantis_project_table</text>
+    <rect style="fill: #ffffff" x="2380.2" y="671.404" width="226.2" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2380.2" y="671.404" width="226.2" height="164"/>
+    <polygon style="fill: #000000" points="2383.2,681.404 2385.2,684.404 2387.2,681.404 2385.2,678.404 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="687.404">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="687.404">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2389.2" y1="689.004" x2="2560.9" y2="689.004"/>
+    <ellipse style="fill: #000000" cx="2385.2" cy="697.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="703.404">name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="703.404">varchar(128)</text>
+    <ellipse style="fill: #000000" cx="2385.2" cy="713.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="719.404">status</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="719.404">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="2385.2" cy="729.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="735.404">enabled</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="735.404">tinyurl(4)</text>
+    <ellipse style="fill: #000000" cx="2385.2" cy="745.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="751.404">view_state</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="751.404">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="2385.2" cy="761.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="767.404">access_min</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="767.404">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="2385.2" cy="777.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="783.404">file_path</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="783.404">varchar(250)</text>
+    <ellipse style="fill: #000000" cx="2385.2" cy="793.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="799.404">description</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="799.404">text</text>
+    <ellipse style="fill: #000000" cx="2385.2" cy="809.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="815.404">category_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="815.404">int(10)</text>
+    <ellipse style="fill: #000000" cx="2385.2" cy="825.404" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2389.2" y="831.404">inherit_global</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2507" y="831.404">int(10)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2549.84,835.404 2549.84,1714.19 1444.63,1714.19 1444.63,1555.74 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2544.84" y1="840.404" x2="2554.84" y2="840.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2544.84" y1="845.404" x2="2554.84" y2="845.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1444.63" y1="1565.74" x2="1449.63" y2="1555.74"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1444.63" y1="1565.74" x2="1439.63" y2="1555.74"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1444.63 1568.24 C 1447.13,1568.24 1449.63,1569.49 1449.63,1570.74 C 1449.63,1571.99 1447.13,1573.24 1444.63,1573.24 C 1442.13,1573.24 1439.63,1571.99 1439.63,1570.74 C 1439.63,1569.49 1442.13,1568.24 1444.63,1568.24"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2393.66" y="227.056" width="195.4" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2393.66" y="227.056" width="195.4" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2491.36" y="241.056">mantis_project_version_table</text>
+    <rect style="fill: #ffffff" x="2393.66" y="245.056" width="195.4" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2393.66" y="245.056" width="195.4" height="116"/>
+    <polygon style="fill: #000000" points="2396.66,255.056 2398.66,258.056 2400.66,255.056 2398.66,252.056 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2402.66" y="261.056">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2497.36" y="261.056">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="2402.66" y1="262.656" x2="2551.26" y2="262.656"/>
+    <ellipse style="fill: #000000" cx="2398.66" cy="271.056" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2402.66" y="277.056">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2497.36" y="277.056">int(10)</text>
+    <ellipse style="fill: #000000" cx="2398.66" cy="287.056" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2402.66" y="293.056">version</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2497.36" y="293.056">varchar(64)</text>
+    <ellipse style="fill: #000000" cx="2398.66" cy="303.056" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2402.66" y="309.056">description</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2497.36" y="309.056">longtext</text>
+    <ellipse style="fill: #000000" cx="2398.66" cy="319.056" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2402.66" y="325.056">released</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2497.36" y="325.056">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="2398.66" cy="335.056" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2402.66" y="341.056">obsolete</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2497.36" y="341.056">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="2398.66" cy="351.056" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2402.66" y="357.056">date_order</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2497.36" y="357.056">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="920.376" y="178.582" width="226.2" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="920.376" y="178.582" width="226.2" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1033.48" y="192.582">mantis_sponsorship_table</text>
+    <rect style="fill: #ffffff" x="920.376" y="196.582" width="226.2" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="920.376" y="196.582" width="226.2" height="148"/>
+    <polygon style="fill: #000000" points="923.376,206.582 925.376,209.582 927.376,206.582 925.376,203.582 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="212.582">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="212.582">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="929.376" y1="214.182" x2="1101.08" y2="214.182"/>
+    <ellipse style="fill: #000000" cx="925.376" cy="222.582" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="228.582">bug_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="228.582">int(11)</text>
+    <ellipse style="fill: #000000" cx="925.376" cy="238.582" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="244.582">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="244.582">int(11)</text>
+    <ellipse style="fill: #000000" cx="925.376" cy="254.582" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="260.582">amount</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="260.582">int(11)</text>
+    <ellipse style="fill: #000000" cx="925.376" cy="270.582" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="276.582">logo</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="276.582">varchar(128)</text>
+    <ellipse style="fill: #000000" cx="925.376" cy="286.582" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="292.582">url</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="292.582">varchar(128)</text>
+    <ellipse style="fill: #000000" cx="925.376" cy="302.582" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="308.582">paid</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="308.582">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="925.376" cy="318.582" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="324.582">date_submitted</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="324.582">int(10)</text>
+    <ellipse style="fill: #000000" cx="925.376" cy="334.582" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="929.376" y="340.582">last_updated</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1047.18" y="340.582">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1328.33" y="1123.59" width="156.9" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1328.33" y="1123.59" width="156.9" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1406.78" y="1137.59">mantis_tokens_table</text>
+    <rect style="fill: #ffffff" x="1328.33" y="1141.59" width="156.9" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1328.33" y="1141.59" width="156.9" height="100"/>
+    <polygon style="fill: #000000" points="1331.33,1151.59 1333.33,1154.59 1335.33,1151.59 1333.33,1148.59 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1337.33" y="1157.59">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1416.63" y="1157.59">int(11)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1337.33" y1="1159.19" x2="1470.53" y2="1159.19"/>
+    <ellipse style="fill: #000000" cx="1333.33" cy="1167.59" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1337.33" y="1173.59">owner</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1416.63" y="1173.59">int(11)</text>
+    <ellipse style="fill: #000000" cx="1333.33" cy="1183.59" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1337.33" y="1189.59">type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1416.63" y="1189.59">int(11)</text>
+    <ellipse style="fill: #000000" cx="1333.33" cy="1199.59" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1337.33" y="1205.59">value</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1416.63" y="1205.59">longtext</text>
+    <ellipse style="fill: #000000" cx="1333.33" cy="1215.59" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1337.33" y="1221.59">timestamp</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1416.63" y="1221.59">int(10)</text>
+    <ellipse style="fill: #000000" cx="1333.33" cy="1231.59" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1337.33" y="1237.59">expiry</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1416.63" y="1237.59">int(10)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1866.21" y="1093.45" width="341.7" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1866.21" y="1093.45" width="341.7" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2037.06" y="1107.45">mantis_user_pref_table</text>
+    <rect style="fill: #ffffff" x="1866.21" y="1111.45" width="341.7" height="468"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1866.21" y="1111.45" width="341.7" height="468"/>
+    <polygon style="fill: #000000" points="1869.21,1121.45 1871.21,1124.45 1873.21,1121.45 1871.21,1118.45 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1127.45">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1127.45">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1875.21" y1="1129.05" x2="2170.11" y2="1129.05"/>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1137.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1143.45">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1143.45">int(10)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1153.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1159.45">project_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1159.45">int(10)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1169.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1175.45">default_profile</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1175.45">int(10)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1185.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1191.45">default_project</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1191.45">int(10)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1201.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1207.45">refresh_delay</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1207.45">int(11)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1217.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1223.45">redirect_delay</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1223.45">int(11)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1233.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1239.45">bugnote_order</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1239.45">varchar(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1249.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1255.45">email_on_new</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1255.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1265.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1271.45">email_on_assigned</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1271.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1281.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1287.45">email_on_feedback</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1287.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1297.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1303.45">email_on_resolved</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1303.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1313.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1319.45">email_on_closed</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1319.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1329.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1335.45">email_on_reopened</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1335.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1345.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1351.45">email_on_bugnote</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1351.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1361.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1367.45">email_on_status</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1367.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1377.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1383.45">email_on_priority</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1383.45">tinyint(4)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1393.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1399.45">email_on_priority_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1399.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1409.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1415.45">email_on_status_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1415.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1425.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1431.45">email_on_bugnote_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1431.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1441.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1447.45">email_on_reopened_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1447.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1457.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1463.45">email_on_closed_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1463.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1473.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1479.45">email_on_resolved_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1479.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1489.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1495.45">email_on_feedback_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1495.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1505.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1511.45">email_on_assigned_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1511.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1521.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1527.45">email_on_new_min_severity</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1527.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1537.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1543.45">email_bugnote_limit</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1543.45">smallint(6)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1553.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1559.45">language</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1559.45">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="1871.21" cy="1569.45" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1875.21" y="1575.45">timezone</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2116.21" y="1575.45">varchar(32)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1768.17" y="687.44" width="192.05" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1768.17" y="687.44" width="192.05" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1864.2" y="701.44">mantis_user_print_pref_table</text>
+    <rect style="fill: #ffffff" x="1768.17" y="705.44" width="192.05" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1768.17" y="705.44" width="192.05" height="36"/>
+    <polygon style="fill: #000000" points="1771.17,715.44 1773.17,718.44 1775.17,715.44 1773.17,712.44 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1777.17" y="721.44">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1864.17" y="721.44">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1777.17" y1="723.04" x2="1918.07" y2="723.04"/>
+    <ellipse style="fill: #000000" cx="1773.17" cy="731.44" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1777.17" y="737.44">print_pref</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1864.17" y="737.44">varchar(64)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1513.55" y="1256.8" width="195.4" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1513.55" y="1256.8" width="195.4" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1611.25" y="1270.8">mantis_user_profile_table</text>
+    <rect style="fill: #ffffff" x="1513.55" y="1274.8" width="195.4" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1513.55" y="1274.8" width="195.4" height="100"/>
+    <polygon style="fill: #000000" points="1516.55,1284.8 1518.55,1287.8 1520.55,1284.8 1518.55,1281.8 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1522.55" y="1290.8">id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1617.25" y="1290.8">int(10)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1522.55" y1="1292.4" x2="1671.15" y2="1292.4"/>
+    <ellipse style="fill: #000000" cx="1518.55" cy="1300.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1522.55" y="1306.8">user_id</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1617.25" y="1306.8">int(10)</text>
+    <ellipse style="fill: #000000" cx="1518.55" cy="1316.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1522.55" y="1322.8">platform</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1617.25" y="1322.8">varchar(320</text>
+    <ellipse style="fill: #000000" cx="1518.55" cy="1332.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1522.55" y="1338.8">os</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1617.25" y="1338.8">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="1518.55" cy="1348.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1522.55" y="1354.8">os_build</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1617.25" y="1354.8">varchar(32)</text>
+    <ellipse style="fill: #000000" cx="1518.55" cy="1364.8" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1522.55" y="1370.8">description</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1617.25" y="1370.8">longtext</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="392.378,1402.57 392.378,1456.54 391.984,1456.54 391.984,1510.51 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="387.378" y1="1407.57" x2="397.378" y2="1407.57"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="387.378" y1="1412.57" x2="397.378" y2="1412.57"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="396.984" y1="1505.51" x2="386.984" y2="1505.51"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="396.984" y1="1500.51" x2="386.984" y2="1500.51"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2493.3,835.404 2493.3,1153.45 2207.91,1153.45 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2488.3" y1="840.404" x2="2498.3" y2="840.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2488.3" y1="845.404" x2="2498.3" y2="845.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2212.91" y1="1158.45" x2="2212.91" y2="1148.45"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2217.91" y1="1158.45" x2="2217.91" y2="1148.45"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="549.238,1042.47 166.918,1042.47 166.918,1689.42 514.214,1689.42 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="544.238" y1="1037.47" x2="544.238" y2="1047.47"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="539.238" y1="1037.47" x2="539.238" y2="1047.47"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="504.214" y1="1689.42" x2="514.214" y2="1694.42"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="504.214" y1="1689.42" x2="514.214" y2="1684.42"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 501.714 1689.42 C 501.714,1691.92 500.464,1694.42 499.214,1694.42 C 497.964,1694.42 496.714,1691.92 496.714,1689.42 C 496.714,1686.92 497.964,1684.42 499.214,1684.42 C 500.464,1684.42 501.714,1686.92 501.714,1689.42"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1145.89,666.018 1236.83,666.018 1236.83,665.912 1327.77,665.912 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1155.89" y1="666.018" x2="1145.89" y2="661.018"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1155.89" y1="666.018" x2="1145.89" y2="671.018"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1158.39 666.018 C 1158.39,663.518 1159.64,661.018 1160.89,661.018 C 1162.14,661.018 1163.39,663.518 1163.39,666.018 C 1163.39,668.518 1162.14,671.018 1160.89,671.018 C 1159.64,671.018 1158.39,668.518 1158.39,666.018"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1322.77" y1="660.912" x2="1322.77" y2="670.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1317.77" y1="660.912" x2="1317.77" y2="670.912"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="798.538,662.468 865.712,662.468 865.712,444.134 932.886,444.134 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="803.538" y1="667.468" x2="803.538" y2="657.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="808.538" y1="667.468" x2="808.538" y2="657.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="922.886" y1="444.134" x2="932.886" y2="449.134"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="922.886" y1="444.134" x2="932.886" y2="439.134"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 920.386 444.134 C 920.386,446.634 919.136,449.134 917.886,449.134 C 916.636,449.134 915.386,446.634 915.386,444.134 C 915.386,441.634 916.636,439.134 917.886,439.134 C 919.136,439.134 920.386,441.634 920.386,444.134"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1646.37,665.912 1700.62,665.912 1700.62,576.564 1754.88,576.564 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1651.37" y1="670.912" x2="1651.37" y2="660.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1656.37" y1="670.912" x2="1656.37" y2="660.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1744.88" y1="576.564" x2="1754.88" y2="581.564"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1744.88" y1="576.564" x2="1754.88" y2="571.564"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1742.38 576.564 C 1742.38,579.064 1741.13,581.564 1739.88,581.564 C 1738.63,581.564 1737.38,579.064 1737.38,576.564 C 1737.38,574.064 1738.63,571.564 1739.88,571.564 C 1741.13,571.564 1742.38,574.064 1742.38,576.564"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="436.462,882.296 492.85,882.296 492.85,882.468 549.238,882.468 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="441.462" y1="887.296" x2="441.462" y2="877.296"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="446.462" y1="887.296" x2="446.462" y2="877.296"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="544.238" y1="877.468" x2="544.238" y2="887.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="539.238" y1="877.468" x2="539.238" y2="887.468"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="549.238,802.468 249.02,802.468 249.02,765.776 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="544.238" y1="797.468" x2="544.238" y2="807.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="539.238" y1="797.468" x2="539.238" y2="807.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="249.02" y1="775.776" x2="254.02" y2="765.776"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="249.02" y1="775.776" x2="244.02" y2="765.776"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 249.02 778.276 C 251.52,778.276 254.02,779.526 254.02,780.776 C 254.02,782.026 251.52,783.276 249.02,783.276 C 246.52,783.276 244.02,782.026 244.02,780.776 C 244.02,779.526 246.52,778.276 249.02,778.276"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="549.238,706.468 461.454,706.468 461.454,707.776 373.67,707.776 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="544.238" y1="701.468" x2="544.238" y2="711.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="539.238" y1="701.468" x2="539.238" y2="711.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="383.67" y1="707.776" x2="373.67" y2="702.776"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="383.67" y1="707.776" x2="373.67" y2="712.776"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 386.17 707.776 C 386.17,705.276 387.42,702.776 388.67,702.776 C 389.92,702.776 391.17,705.276 391.17,707.776 C 391.17,710.276 389.92,712.776 388.67,712.776 C 387.42,712.776 386.17,710.276 386.17,707.776"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="405.702" y="786.062">
+    <tspan x="405.702" y="786.062">Destination</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="419.878" y="684.78">
+    <tspan x="419.878" y="684.78">Source</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="798.538,690.468 884.314,690.468 884.314,682.018 970.09,682.018 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="803.538" y1="695.468" x2="803.538" y2="685.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="808.538" y1="695.468" x2="808.538" y2="685.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="960.09" y1="682.018" x2="970.09" y2="687.018"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="960.09" y1="682.018" x2="970.09" y2="677.018"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 957.59 682.018 C 957.59,684.518 956.34,687.018 955.09,687.018 C 953.84,687.018 952.59,684.518 952.59,682.018 C 952.59,679.518 953.84,677.018 955.09,677.018 C 956.34,677.018 957.59,679.518 957.59,682.018"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1327.77,825.912 1232.85,825.912 1232.85,927.252 1137.92,927.252 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1322.77" y1="820.912" x2="1322.77" y2="830.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1317.77" y1="820.912" x2="1317.77" y2="830.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1147.92" y1="927.252" x2="1137.92" y2="922.252"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1147.92" y1="927.252" x2="1137.92" y2="932.252"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1150.42 927.252 C 1150.42,924.752 1151.67,922.252 1152.92,922.252 C 1154.17,922.252 1155.42,924.752 1155.42,927.252 C 1155.42,929.752 1154.17,932.252 1152.92,932.252 C 1151.67,932.252 1150.42,929.752 1150.42,927.252"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1045.46,1486.37 1045.46,1465.37 623.789,1465.37 623.789,1645.42 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1050.46" y1="1481.37" x2="1040.46" y2="1481.37"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1050.46" y1="1476.37" x2="1040.46" y2="1476.37"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="623.789" y1="1635.42" x2="618.789" y2="1645.42"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="623.789" y1="1635.42" x2="628.789" y2="1645.42"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 623.789 1632.92 C 621.289,1632.92 618.789,1631.67 618.789,1630.42 C 618.789,1629.17 621.289,1627.92 623.789,1627.92 C 626.289,1627.92 628.789,1629.17 628.789,1630.42 C 628.789,1631.67 626.289,1632.92 623.789,1632.92"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1331.38,1513.74 1248.82,1513.74 1248.82,1514.37 1166.26,1514.37 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1326.38" y1="1508.74" x2="1326.38" y2="1518.74"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1321.38" y1="1508.74" x2="1321.38" y2="1518.74"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1176.26" y1="1514.37" x2="1166.26" y2="1509.37"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1176.26" y1="1514.37" x2="1166.26" y2="1519.37"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1178.76 1514.37 C 1178.76,1511.87 1180.01,1509.37 1181.26,1509.37 C 1182.51,1509.37 1183.76,1511.87 1183.76,1514.37 C 1183.76,1516.87 1182.51,1519.37 1181.26,1519.37 C 1180.01,1519.37 1178.76,1516.87 1178.76,1514.37"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1566.72,883.912 1566.72,1044.54 1951.64,1044.54 1951.64,1093.45 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1561.72" y1="888.912" x2="1571.72" y2="888.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1561.72" y1="893.912" x2="1571.72" y2="893.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1956.64" y1="1088.45" x2="1946.64" y2="1088.45"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1951.64 1080.95 C 1949.14,1080.95 1946.64,1079.7 1946.64,1078.45 C 1946.64,1077.2 1949.14,1075.95 1951.64,1075.95 C 1954.14,1075.95 1956.64,1077.2 1956.64,1078.45 C 1956.64,1079.7 1954.14,1080.95 1951.64,1080.95"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1646.37,825.912 1709.41,825.912 1709.41,825.95 1772.44,825.95 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1651.37" y1="830.912" x2="1651.37" y2="820.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1656.37" y1="830.912" x2="1656.37" y2="820.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1762.44" y1="825.95" x2="1772.44" y2="830.95"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1762.44" y1="825.95" x2="1772.44" y2="820.95"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1759.94 825.95 C 1759.94,828.45 1758.69,830.95 1757.44,830.95 C 1756.19,830.95 1754.94,828.45 1754.94,825.95 C 1754.94,823.45 1756.19,820.95 1757.44,820.95 C 1758.69,820.95 1759.94,823.45 1759.94,825.95"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2380.2,809.404 2177.87,809.404 2177.87,809.95 1975.54,809.95 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2375.2" y1="804.404" x2="2375.2" y2="814.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2370.2" y1="804.404" x2="2370.2" y2="814.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1985.54" y1="809.95" x2="1975.54" y2="804.95"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1985.54" y1="809.95" x2="1975.54" y2="814.95"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1988.04 809.95 C 1988.04,807.45 1989.29,804.95 1990.54,804.95 C 1991.79,804.95 1993.04,807.45 1993.04,809.95 C 1993.04,812.45 1991.79,814.95 1990.54,814.95 C 1989.29,814.95 1988.04,812.45 1988.04,809.95"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1032.52,899.252 1032.52,859.013 1033.04,859.013 1033.04,818.774 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1037.52" y1="894.252" x2="1027.52" y2="894.252"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1037.52" y1="889.252" x2="1027.52" y2="889.252"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1033.04" y1="828.774" x2="1038.04" y2="818.774"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1033.04" y1="828.774" x2="1028.04" y2="818.774"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1033.04 831.274 C 1035.54,831.274 1038.04,832.524 1038.04,833.774 C 1038.04,835.024 1035.54,836.274 1033.04,836.274 C 1030.54,836.274 1028.04,835.024 1028.04,833.774 C 1028.04,832.524 1030.54,831.274 1033.04,831.274"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="798.538,754.468 870.789,754.468 870.789,760.774 943.04,760.774 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="803.538" y1="759.468" x2="803.538" y2="749.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="808.538" y1="759.468" x2="808.538" y2="749.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="933.04" y1="760.774" x2="943.04" y2="765.774"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="933.04" y1="760.774" x2="943.04" y2="755.774"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 930.54 760.774 C 930.54,763.274 929.29,765.774 928.04,765.774 C 926.79,765.774 925.54,763.274 925.54,760.774 C 925.54,758.274 926.79,755.774 928.04,755.774 C 929.29,755.774 930.54,758.274 930.54,760.774"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1327.77,761.912 1225.41,761.912 1225.41,760.774 1123.04,760.774 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1322.77" y1="756.912" x2="1322.77" y2="766.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1317.77" y1="756.912" x2="1317.77" y2="766.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1133.04" y1="760.774" x2="1123.04" y2="755.774"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1133.04" y1="760.774" x2="1123.04" y2="765.774"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1135.54 760.774 C 1135.54,758.274 1136.79,755.774 1138.04,755.774 C 1139.29,755.774 1140.54,758.274 1140.54,760.774 C 1140.54,763.274 1139.29,765.774 1138.04,765.774 C 1136.79,765.774 1135.54,763.274 1135.54,760.774"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2380.2,777.404 2018.48,777.404 2018.48,592.564 1965.68,592.564 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2375.2" y1="772.404" x2="2375.2" y2="782.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2370.2" y1="772.404" x2="2370.2" y2="782.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1975.68" y1="592.564" x2="1965.68" y2="587.564"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1975.68" y1="592.564" x2="1965.68" y2="597.564"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1978.18 592.564 C 1978.18,590.064 1979.43,587.564 1980.68,587.564 C 1981.93,587.564 1983.18,590.064 1983.18,592.564 C 1983.18,595.064 1981.93,597.564 1980.68,597.564 C 1979.43,597.564 1978.18,595.064 1978.18,592.564"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2436.75,835.404 2436.75,905.43 2197.44,905.43 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2431.75" y1="840.404" x2="2441.75" y2="840.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2431.75" y1="845.404" x2="2441.75" y2="845.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2207.44" y1="905.43" x2="2197.44" y2="900.43"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2207.44" y1="905.43" x2="2197.44" y2="910.43"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 2209.94 905.43 C 2209.94,902.93 2211.19,900.43 2212.44,900.43 C 2213.69,900.43 2214.94,902.93 2214.94,905.43 C 2214.94,907.93 2213.69,910.43 2212.44,910.43 C 2211.19,910.43 2209.94,907.93 2209.94,905.43"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1646.37,713.912 1707.27,713.912 1707.27,715.44 1768.17,715.44 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1651.37" y1="718.912" x2="1651.37" y2="708.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1656.37" y1="718.912" x2="1656.37" y2="708.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1763.17" y1="710.44" x2="1763.17" y2="720.44"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1758.17" y1="710.44" x2="1758.17" y2="720.44"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2380.2,681.404 2079.2,681.404 2079.2,141.067 1586.75,141.067 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2375.2" y1="676.404" x2="2375.2" y2="686.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2370.2" y1="676.404" x2="2370.2" y2="686.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1596.75" y1="141.067" x2="1586.75" y2="136.067"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1596.75" y1="141.067" x2="1586.75" y2="146.067"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1599.25 141.067 C 1599.25,138.567 1600.5,136.067 1601.75,136.067 C 1603,136.067 1604.25,138.567 1604.25,141.067 C 1604.25,143.567 1603,146.067 1601.75,146.067 C 1600.5,146.067 1599.25,143.567 1599.25,141.067"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1487.07,637.912 1487.07,433.512 1489.05,433.512 1489.05,183.067 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1492.07" y1="632.912" x2="1482.07" y2="632.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1492.07" y1="627.912" x2="1482.07" y2="627.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1484.05" y1="188.067" x2="1494.05" y2="188.067"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1489.05 195.567 C 1491.55,195.567 1494.05,196.817 1494.05,198.067 C 1494.05,199.317 1491.55,200.567 1489.05,200.567 C 1486.55,200.567 1484.05,199.317 1484.05,198.067 C 1484.05,196.817 1486.55,195.567 1489.05,195.567"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1327.77,637.912 1239.58,637.912 1239.58,428.134 1151.39,428.134 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1322.77" y1="632.912" x2="1322.77" y2="642.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1317.77" y1="632.912" x2="1317.77" y2="642.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1161.39" y1="428.134" x2="1151.39" y2="423.134"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1161.39" y1="428.134" x2="1151.39" y2="433.134"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1163.89 428.134 C 1163.89,425.634 1165.14,423.134 1166.39,423.134 C 1167.64,423.134 1168.89,425.634 1168.89,428.134 C 1168.89,430.634 1167.64,433.134 1166.39,433.134 C 1165.14,433.134 1163.89,430.634 1163.89,428.134"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="736.213,1148.47 736.213,1192.54 736.098,1192.54 736.098,1236.61 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="731.213" y1="1153.47" x2="741.213" y2="1153.47"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="731.213" y1="1158.47" x2="741.213" y2="1158.47"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="736.098" y1="1226.61" x2="731.098" y2="1236.61"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="736.098" y1="1226.61" x2="741.098" y2="1236.61"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 736.098 1224.11 C 733.598,1224.11 731.098,1222.86 731.098,1221.61 C 731.098,1220.36 733.598,1219.11 736.098,1219.11 C 738.598,1219.11 741.098,1220.36 741.098,1221.61 C 741.098,1222.86 738.598,1224.11 736.098,1224.11"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="647.848,1296.61 578.588,1296.61 578.588,1296.57 509.328,1296.57 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="642.848" y1="1291.61" x2="642.848" y2="1301.61"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="637.848" y1="1291.61" x2="637.848" y2="1301.61"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="519.328" y1="1296.57" x2="509.328" y2="1291.57"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="519.328" y1="1296.57" x2="509.328" y2="1301.57"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 521.828 1296.57 C 521.828,1294.07 523.078,1291.57 524.328,1291.57 C 525.578,1291.57 526.828,1294.07 526.828,1296.57 C 526.828,1299.07 525.578,1301.57 524.328,1301.57 C 523.078,1301.57 521.828,1299.07 521.828,1296.57"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1327.77,883.912 1274.45,883.912 1274.45,1312.61 824.348,1312.61 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1322.77" y1="878.912" x2="1322.77" y2="888.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1317.77" y1="878.912" x2="1317.77" y2="888.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="834.348" y1="1312.61" x2="824.348" y2="1307.61"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="834.348" y1="1312.61" x2="824.348" y2="1317.61"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 836.848 1312.61 C 836.848,1310.11 838.098,1307.61 839.348,1307.61 C 840.598,1307.61 841.848,1310.11 841.848,1312.61 C 841.848,1315.11 840.598,1317.61 839.348,1317.61 C 838.098,1317.61 836.848,1315.11 836.848,1312.61"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2549.85,653.404 2549.85,462.65 2609.42,462.65 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2554.85" y1="648.404" x2="2544.85" y2="648.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2554.85" y1="643.404" x2="2544.85" y2="643.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2599.42" y1="462.65" x2="2609.42" y2="467.65"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2599.42" y1="462.65" x2="2609.42" y2="457.65"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 2596.92 462.65 C 2596.92,465.15 2595.67,467.65 2594.42,467.65 C 2593.17,467.65 2591.92,465.15 2591.92,462.65 C 2591.92,460.15 2593.17,457.65 2594.42,457.65 C 2595.67,457.65 2596.92,460.15 2596.92,462.65"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2606.4,697.404 2661.08,697.404 2661.08,504.65 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2611.4" y1="702.404" x2="2611.4" y2="692.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2616.4" y1="702.404" x2="2616.4" y2="692.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2661.08" y1="514.65" x2="2666.08" y2="504.65"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2661.08" y1="514.65" x2="2656.08" y2="504.65"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 2661.08 517.15 C 2663.58,517.15 2666.08,518.4 2666.08,519.65 C 2666.08,520.9 2663.58,522.15 2661.08,522.15 C 2658.58,522.15 2656.08,520.9 2656.08,519.65 C 2656.08,518.4 2658.58,517.15 2661.08,517.15"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2606.4,745.404 2764.41,745.404 2764.41,504.65 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2611.4" y1="750.404" x2="2611.4" y2="740.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2616.4" y1="750.404" x2="2616.4" y2="740.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2764.41" y1="514.65" x2="2769.41" y2="504.65"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2764.41" y1="514.65" x2="2759.41" y2="504.65"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 2764.41 517.15 C 2766.91,517.15 2769.41,518.4 2769.41,519.65 C 2769.41,520.9 2766.91,522.15 2764.41,522.15 C 2761.91,522.15 2759.41,520.9 2759.41,519.65 C 2759.41,518.4 2761.91,517.15 2764.41,517.15"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="2543.62" y="449.138">
+    <tspan x="2543.62" y="449.138">Child</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="2606.08" y="555.192">
+    <tspan x="2606.08" y="555.192">Parent</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="2777.68" y="548.608">
+    <tspan x="2777.68" y="548.608">Inherit</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2436.75,653.404 2436.75,549.215 2238.65,549.215 2238.65,445.026 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2441.75" y1="648.404" x2="2431.75" y2="648.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2441.75" y1="643.404" x2="2431.75" y2="643.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2238.65" y1="455.026" x2="2243.65" y2="445.026"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2238.65" y1="455.026" x2="2233.65" y2="445.026"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 2238.65 457.526 C 2241.15,457.526 2243.65,458.776 2243.65,460.026 C 2243.65,461.276 2241.15,462.526 2238.65,462.526 C 2236.15,462.526 2233.65,461.276 2233.65,460.026 C 2233.65,458.776 2236.15,457.526 2238.65,457.526"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2493.3,653.404 2493.3,507.23 2442.51,507.23 2442.51,361.056 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2498.3" y1="648.404" x2="2488.3" y2="648.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2498.3" y1="643.404" x2="2488.3" y2="643.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2442.51" y1="371.056" x2="2447.51" y2="361.056"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2442.51" y1="371.056" x2="2437.51" y2="361.056"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 2442.51 373.556 C 2445.01,373.556 2447.51,374.806 2447.51,376.056 C 2447.51,377.306 2445.01,378.556 2442.51,378.556 C 2440.01,378.556 2437.51,377.306 2437.51,376.056 C 2437.51,374.806 2440.01,373.556 2442.51,373.556"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2380.2,729.404 2040.42,729.404 2040.42,280.262 1881.86,280.262 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2375.2" y1="724.404" x2="2375.2" y2="734.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2370.2" y1="724.404" x2="2370.2" y2="734.404"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1891.86" y1="280.262" x2="1881.86" y2="275.262"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1891.86" y1="280.262" x2="1881.86" y2="285.262"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1894.36 280.262 C 1894.36,277.762 1895.61,275.262 1896.86,275.262 C 1898.11,275.262 1899.36,277.762 1899.36,280.262 C 1899.36,282.762 1898.11,285.262 1896.86,285.262 C 1895.61,285.262 1894.36,282.762 1894.36,280.262"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1566.72,637.912 1566.72,296.262 1671.06,296.262 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1571.72" y1="632.912" x2="1561.72" y2="632.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1571.72" y1="627.912" x2="1561.72" y2="627.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1661.06" y1="296.262" x2="1671.06" y2="301.262"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1661.06" y1="296.262" x2="1671.06" y2="291.262"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1658.56 296.262 C 1658.56,298.762 1657.31,301.262 1656.06,301.262 C 1654.81,301.262 1653.56,298.762 1653.56,296.262 C 1653.56,293.762 1654.81,291.262 1656.06,291.262 C 1657.31,291.262 1658.56,293.762 1658.56,296.262"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1407.42,637.912 1407.42,238.582 1146.58,238.582 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1412.42" y1="632.912" x2="1402.42" y2="632.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1412.42" y1="627.912" x2="1402.42" y2="627.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1156.58" y1="238.582" x2="1146.58" y2="233.582"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1156.58" y1="238.582" x2="1146.58" y2="243.582"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1159.08 238.582 C 1159.08,236.082 1160.33,233.582 1161.58,233.582 C 1162.83,233.582 1164.08,236.082 1164.08,238.582 C 1164.08,241.082 1162.83,243.582 1161.58,243.582 C 1160.33,243.582 1159.08,241.082 1159.08,238.582"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="736.213,662.468 736.213,222.582 920.376,222.582 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="741.213" y1="657.468" x2="731.213" y2="657.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="741.213" y1="652.468" x2="731.213" y2="652.468"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="910.376" y1="222.582" x2="920.376" y2="227.582"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="910.376" y1="222.582" x2="920.376" y2="217.582"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 907.876 222.582 C 907.876,225.082 906.626,227.582 905.376,227.582 C 904.126,227.582 902.876,225.082 902.876,222.582 C 902.876,220.082 904.126,217.582 905.376,217.582 C 906.626,217.582 907.876,220.082 907.876,222.582"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1407.42,883.912 1407.42,1003.75 1406.78,1003.75 1406.78,1123.59 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1402.42" y1="888.912" x2="1412.42" y2="888.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1402.42" y1="893.912" x2="1412.42" y2="893.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1411.78" y1="1118.59" x2="1401.78" y2="1118.59"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1411.78" y1="1113.59" x2="1401.78" y2="1113.59"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1487.07,883.912 1487.07,1070.35 1562.4,1070.35 1562.4,1256.8 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1482.07" y1="888.912" x2="1492.07" y2="888.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1482.07" y1="893.912" x2="1492.07" y2="893.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1562.4" y1="1246.8" x2="1557.4" y2="1256.8"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1562.4" y1="1246.8" x2="1567.4" y2="1256.8"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1562.4 1244.3 C 1559.9,1244.3 1557.4,1243.05 1557.4,1241.8 C 1557.4,1240.55 1559.9,1239.3 1562.4,1239.3 C 1564.9,1239.3 1567.4,1240.55 1567.4,1241.8 C 1567.4,1243.05 1564.9,1244.3 1562.4,1244.3"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1660.1,1256.8 1660.1,1169.45 1866.21,1169.45 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1665.1" y1="1251.8" x2="1655.1" y2="1251.8"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1665.1" y1="1246.8" x2="1655.1" y2="1246.8"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1856.21" y1="1169.45" x2="1866.21" y2="1174.45"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1856.21" y1="1169.45" x2="1866.21" y2="1164.45"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1853.71 1169.45 C 1853.71,1171.95 1852.46,1174.45 1851.21,1174.45 C 1849.96,1174.45 1848.71,1171.95 1848.71,1169.45 C 1848.71,1166.95 1849.96,1164.45 1851.21,1164.45 C 1852.46,1164.45 1853.71,1166.95 1853.71,1169.45"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1646.37,883.912 1824.2,883.912 1824.2,921.43 2002.04,921.43 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1651.37" y1="888.912" x2="1651.37" y2="878.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1656.37" y1="888.912" x2="1656.37" y2="878.912"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1992.04" y1="921.43" x2="2002.04" y2="926.43"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1992.04" y1="921.43" x2="2002.04" y2="916.43"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1989.54 921.43 C 1989.54,923.93 1988.29,926.43 1987.04,926.43 C 1985.79,926.43 1984.54,923.93 1984.54,921.43 C 1984.54,918.93 1985.79,916.43 1987.04,916.43 C 1988.29,916.43 1989.54,918.93 1989.54,921.43"/>
+  </g>
+  <text font-size="33.8667" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="2304" y="1848.01">
+    <tspan x="2304" y="1848.01">Mantis 1.2.10 ER Diagram</tspan>
+  </text>
+</svg>
